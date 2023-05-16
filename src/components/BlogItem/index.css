@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.each-blog-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  font-family: 'Roboto';
+}
+
+.post-num-and-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-num {
+  font-weight: Bold;
+  color: #12022f;
+  font-size: 20px;
+}
+
+.description {
+  font-weight: 300;
+  color: #9aa5b1;
+  font-size: 16px;
+}
+
+.date {
+  font-weight: 500;
+  color: #9aa5b1;
+  font-size: 16px;
+}
+
+.line {
+  width: 100%;
+  color: #616e7c;
+}
